@@ -79,10 +79,10 @@
       "on-click": "nm-connection-editor"
     },
     "pulseaudio": {
-      "format": "{icon} {volume}%",
-      "format-bluetooth": "{icon} {volume}%",
-      "format-bluetooth-muted": "{icon} --%",  // 
-      "format-muted": "{icon} --%",
+      "format": "{icon}{volume}%",
+      "format-bluetooth": "{icon}{volume}%",
+      "format-bluetooth-muted": "{icon}--%",  // 
+      "format-muted": "{icon}--%",
       "format-icons": {
         "headphone": "",
         "hands-free": "",
@@ -90,7 +90,7 @@
         "phone": "",
         "portable": "",
         "car": "",
-        "default": ["", "", ""]
+        "default": ["", "", ""]
       },
       "on-click": "pavucontrol"
     }
