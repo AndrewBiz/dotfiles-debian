@@ -1,8 +1,7 @@
 @import "macchiato.css";
 
 * {
-  font-family: Font Awesome, "JetBrains Mono", Roboto, Helvetica, Arial,
-    sans-serif;
+  font-family: "Hack Nerd Font Propo", Roboto, Helvetica, sans-serif;
   font-size: 18px;
 }
 
