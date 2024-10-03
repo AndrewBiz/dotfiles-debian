@@ -46,11 +46,14 @@ button:hover {
 
 #workspaces button.visible {
   color: @blue;
+  font-weight: bolder;
 }
 
 #workspaces button.active {
   color: @green;
   font-weight: bold;
+  background-color: green;
+  border-radius: 50%;
 }
 
 /* #workspaces button:hover {
