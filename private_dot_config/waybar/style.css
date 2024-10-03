@@ -26,11 +26,6 @@ button:hover {
   box-shadow: inset 0 -3px #ffffff;
 }
 
-/* you can set a style on hover for any module like this */
-#pulseaudio:hover {
-  background-color: @surface2;
-}
-
 #workspaces button {
   /* padding: 1px 5px; */
   padding: 0 0.5em;
@@ -90,6 +85,14 @@ button:hover {
   color: @maroon;
 }
 
+#pulseaudio.muted {
+  color: @overlay0;
+}
+
+/* #pulseaudio:hover {
+  background-color: @base;
+} */
+
 #network {
   color: @yellow;
 }
@@ -100,6 +103,15 @@ button:hover {
 
 #battery {
   color: @green;
+}
+
+#bluetooth {
+  color: @sky;
+}
+
+#bluetooth.off,
+#bluetooth.disabled {
+  color: @overlay0;
 }
 
 #clock {
@@ -159,8 +171,4 @@ button:hover {
 
 label:focus {
   background-color: #000000;
-}
-
-#pulseaudio.muted {
-  color: @text;
 }
