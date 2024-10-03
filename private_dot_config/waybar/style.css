@@ -32,22 +32,40 @@ button:hover {
 }
 
 #workspaces button {
-  padding: 1px 5px;
+  /* padding: 1px 5px; */
+  padding: 0 0.5em;
   background-color: transparent;
-  color: @rosewater;
+  /* color: @rosewater; */
+  color: @text;
+  margin: 0.25em;
 }
 
-#workspaces button:hover {
+#workspaces button.empty {
+  color: @overlay0;
+}
+
+#workspaces button.visible {
+  color: @blue;
+}
+
+#workspaces button.active {
+  color: @green;
+  font-weight: bold;
+}
+
+/* #workspaces button:hover {
   background: #262626;
-}
+} */
 
-#workspaces button.focused {
+/* #workspaces button.focused {
   background-color: gray;
   box-shadow: inset 0 -3px #ffffff;
-}
+} */
 
 #workspaces button.urgent {
-  background-color: #eb4d4b;
+  background-color: @red;
+  border-radius: 1em;
+  color: @text;
 }
 
 #mode {

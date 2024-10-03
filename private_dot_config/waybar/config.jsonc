@@ -32,11 +32,12 @@
   },
 
   "hyprland/workspaces": {
-    "format": "{icon}",
+    // "format": "{icon}",
+    "format": "{id}",
     "on-click": "activate",
-    "format-icons": {
-      "active": " " //
-    },
+    // "format-icons": {
+    //   "active": " " //
+    // },
     "sort-by-number": true,
     "persistent-workspaces": {
       "*": 3, // ANB 5 workspaces by default on every monitor
