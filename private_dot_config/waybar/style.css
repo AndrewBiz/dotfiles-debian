@@ -51,15 +51,6 @@ button:hover {
   border-radius: 50%;
 }
 
-/* #workspaces button:hover {
-  background: #262626;
-} */
-
-/* #workspaces button.focused {
-  background-color: gray;
-  box-shadow: inset 0 -3px #ffffff;
-} */
-
 #workspaces button.urgent {
   background-color: @red;
   border-radius: 1em;
@@ -71,17 +62,8 @@ button:hover {
   box-shadow: inset 0 -3px #ffffff;
 }
 
-#clock,
-#battery,
-#cpu,
-#memory,
-#temperature,
-#network,
 #pulseaudio {
   padding: 0 10px;
-}
-
-#pulseaudio {
   color: @maroon;
 }
 
@@ -94,18 +76,22 @@ button:hover {
 } */
 
 #network {
+  padding: 0 10px;
   color: @yellow;
 }
 
 #temperature {
+  padding: 0 10px;
   color: @sky;
 }
 
 #battery {
+  padding: 0 10px;
   color: @green;
 }
 
 #bluetooth {
+  padding: 0 10px;
   color: @sky;
 }
 
@@ -115,14 +101,17 @@ button:hover {
 }
 
 #clock {
+  padding: 0 10px;
   color: @flamingo;
 }
 
 #cpu {
+  padding: 0 10px;
   color: @peach;
 }
 
 #memory {
+  padding: 0 10px;
   color: @green;
 }
 
