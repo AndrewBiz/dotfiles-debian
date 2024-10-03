@@ -166,3 +166,28 @@ button:hover {
 label:focus {
   background-color: #000000;
 }
+
+#backlight-slider {
+  min-width: 150px;
+}
+#backlight-slider slider {
+  min-height: 0px;
+  min-width: 0px;
+  opacity: 0;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+#backlight-slider trough {
+  min-height: 10px;
+  min-width: 10px;
+  border-radius: 5px;
+  background-color: @base;
+  border: 1px solid @overlay0;
+}
+#backlight-slider highlight {
+  min-width: 10px;
+  border-radius: 5px;
+  background-color: @overlay0;
+  border: none;
+}

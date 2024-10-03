@@ -7,12 +7,13 @@
 
   "reload_style_on_change": true,
 
-  "modules-left": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces", "backlight/slider"],
 
   "modules-center": ["hyprland/window"],
 
   "modules-right": [
     // "hyprland/language",
+    // "backlight/slider",
     "tray",
     "temperature",
     "cpu",
@@ -151,5 +152,12 @@
     "icon-size": 21,
     "show-passive-items": true,
     "spacing": 10
+  },
+
+  "backlight/slider": {
+    "min": 10,
+    "max": 100,
+    "orientation": "horizontal"
+    // "device": "intel_backlight"
   }
 }
