@@ -13,10 +13,10 @@
 
   "modules-right": [
     // "hyprland/language",
+    "tray",
     "temperature",
     "cpu",
     "memory",
-    "tray",
     // "network",
     // "bluetooth",
     "pulseaudio",
