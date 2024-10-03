@@ -95,6 +95,11 @@ button:hover {
   color: @sky;
 }
 
+#tray {
+  padding: 0 10px;
+  color: @sky;
+}
+
 #bluetooth.off,
 #bluetooth.disabled {
   color: @overlay0;

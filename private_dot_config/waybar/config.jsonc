@@ -16,9 +16,10 @@
     "temperature",
     "cpu",
     "memory",
-    "network",
+    "tray",
+    // "network",
+    // "bluetooth",
     "pulseaudio",
-    "bluetooth",
     "battery",
     "clock"
   ],
@@ -144,5 +145,11 @@
       "default": ["", "", ""]
     },
     "on-click-right": "pavucontrol"
+  },
+
+  "tray": {
+    "icon-size": 21,
+    "show-passive-items": true,
+    "spacing": 10
   }
 }
