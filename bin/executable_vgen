@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+~/dev/vgen/bin/vgen.rb "$@"
